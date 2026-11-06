@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дом и порядок — домашний мастер: электрика, сантехника, мебель. Приезд за 60 минут</title>
+  <meta name="description" content="Сервис домашнего мастера «Дом и порядок»: электрика, сантехника, сборка мебели, мелкий ремонт. Приезд за 60 минут, гарантия 12 месяцев, фиксированная смета.">
+  <link rel="icon" href="assets/img/hero.png" type="image/png">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="logo">Дом<span>&amp;</span>порядок</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#services">Услуги</a>
+        <a href="#works">До и после</a>
+        <a href="#price">Цены</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#order" class="btn btn--solid btn--nav">Вызвать мастера</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Герой -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">Сервис домашнего мастера</p>
+        <h1>Починим всё,<br>кроме терпения</h1>
+        <p class="hero__sub">Электрика, сантехника, мебель и мелкий ремонт — аккуратно, с гарантией и по фиксированной смете. Мастер приедет в течение часа.</p>
+        <div class="hero__cta">
+          <a href="#order" class="btn btn--solid">Вызвать мастера</a>
+          <a href="#price" class="btn btn--ghost">Услуги и цены</a>
+        </div>
+        <div class="hero__badges">
+          <div class="badge"><b>60 мин</b><span>средний приезд</span></div>
+          <div class="badge"><b>12 мес</b><span>гарантия на работы</span></div>
+          <div class="badge"><b>4,9</b><span>рейтинг из 1 100 заказов</span></div>
+        </div>
+      </div>
+      <div class="hero__media reveal">
+        <div class="hero__photo"><img src="assets/img/hero.png" alt="Мастер устанавливает полку в квартире"></div>
+        <div class="float-card"><b>Сегодня свободно</b><span>3 мастера · слоты с 14:00</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section class="section services" id="services">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Услуги</p>
+        <h2>Берёмся за то, что «висит уже полгода»</h2>
+      </div>
+      <div class="services__grid">
+        <article class="srv reveal"><h3>Электрика</h3><p>Розетки, выключатели, светильники, замена проводки по месту.</p><b>от 800 ₽</b></article>
+        <article class="srv reveal"><h3>Сантехника</h3><p>Смесители, слив, унитаз, полотенцесушитель — без потопов.</p><b>от 900 ₽</b></article>
+        <article class="srv reveal"><h3>Сборка мебели</h3><p>Корпусная мебель, кухни, шкафы-купе — по инструкции и без лишних деталей.</p><b>от 1 200 ₽</b></article>
+        <article class="srv reveal"><h3>Двери и замки</h3><p>Установка и регулировка дверей, замена замков, врезка личинок.</p><b>от 1 100 ₽</b></article>
+        <article class="srv reveal"><h3>Полки и крепления</h3><p>На любые стены — гипсокартон, бетон, кирпич. Держится навсегда.</p><b>от 600 ₽</b></article>
+        <article class="srv reveal"><h3>Малярные работы</h3><p>Локальный ремонт стен, поклейка обоев, подкраска сколов.</p><b>от 1 500 ₽</b></article>
+        <article class="srv reveal"><h3>Бытовая техника</h3><p>Подключение стиральных, посудомоек, плит и вытяжек.</p><b>от 1 000 ₽</b></article>
+        <article class="srv reveal"><h3>«Муж на час»</h3><p>Список из десяти мелочей — закроем за один выезд.</p><b>от 1 800 ₽/час</b></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- До и после -->
+  <section class="section section--tint works" id="works">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">До и после</p>
+        <h2>Кухня за один выезд</h2>
+        <p class="head__sub">Потяните за рычажок — и посмотрите, что делает один день работы мастера.</p>
+      </div>
+      <div class="ba reveal" id="ba">
+        <img class="ba__after" src="assets/img/after.png" alt="Кухня после ремонта" draggable="false">
+        <div class="ba__before" id="baBefore">
+          <img src="assets/img/before.png" alt="Кухня до ремонта" draggable="false">
+        </div>
+        <div class="ba__handle" id="baHandle" aria-hidden="true">
+          <span class="ba__knob"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6-5 6 5 6M15 6l5 6-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <span class="ba__label ba__label--before">До</span>
+        <span class="ba__label ba__label--after">После</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Цены -->
+  <section class="section price" id="price">
+    <div class="wrap wrap--grid">
+      <div class="price__text reveal">
+        <p class="eyebrow">Цены</p>
+        <h2>Смета — до начала работ</h2>
+        <p class="price__lead">Мастер осматривает задачу, называет итоговую сумму и не меняет её в процессе. Оплата — после приёмки, по чеку.</p>
+        <ul class="guar">
+          <li><b>Гарантия 12 месяцев</b><span>на все виды работ — письменно</span></li>
+          <li><b>Фиксированная цена</b><span>не вырастет «по ходу дела»</span></li>
+          <li><b>Договор и чек</b><span>выплаты безналом и картой</span></li>
+        </ul>
+      </div>
+      <div class="price__list reveal">
+        <div class="prow"><span class="prow__name">Выезд и диагностика</span><span class="prow__dots"></span><span class="prow__val">0 ₽</span></div>
+        <div class="prow"><span class="prow__name">Замена розетки / выключателя</span><span class="prow__dots"></span><span class="prow__val">от 800 ₽</span></div>
+        <div class="prow"><span class="prow__name">Установка смесителя</span><span class="prow__dots"></span><span class="prow__val">от 900 ₽</span></div>
+        <div class="prow"><span class="prow__name">Сборка шкафа (за модуль)</span><span class="prow__dots"></span><span class="prow__val">от 700 ₽</span></div>
+        <div class="prow"><span class="prow__name">Установка межкомнатной двери</span><span class="prow__dots"></span><span class="prow__val">от 2 500 ₽</span></div>
+        <div class="prow"><span class="prow__name">Подключение стиральной машины</span><span class="prow__dots"></span><span class="prow__val">от 1 000 ₽</span></div>
+        <div class="prow"><span class="prow__name">Повесить полку / ТВ / карниз</span><span class="prow__dots"></span><span class="prow__val">от 600 ₽</span></div>
+        <p class="price__note">Точную стоимость назовём по фото или после осмотра — это бесплатно.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="section section--tint reviews" id="reviews">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Отзывы</p>
+        <h2>Слова после выезда</h2>
+      </div>
+      <div class="reviews__grid">
+        <article class="rev reveal"><div class="stars">★★★★★</div><p>«Развёл сеть розеток на кухне и повесил три полки за два часа. Всё ровно, мусор забрал с собой. Буду звать ещё».</p><footer>Алексей Т. — электрика + полки</footer></article>
+        <article class="rev reveal"><div class="stars">★★★★★</div><p>«Мастер приехал через 40 минут, заменил смеситель и починил доводчик. Цена — как назвал по телефону, ни рублем больше».</p><footer>Ирина С. — сантехника</footer></article>
+        <article class="rev reveal"><div class="stars">★★★★★</div><p>«Собрали шкаф-купе на 2,4 метра за вечер, выровняли, отрегулировали двери. Гарантию выписали на бланке. Рекомендую».</p><footer>Дмитрий и Оксана — мебель</footer></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Вызов мастера -->
+  <section class="cta-band" id="order">
+    <div class="wrap two-col cta-band__inner">
+      <div class="cta-band__text reveal">
+        <h2>Вызвать мастера</h2>
+        <p class="cta-band__sub">Опишите задачу — подберём свободного специалиста и перезвоним за 10 минут. Диагностика и выезд — бесплатно.</p>
+        <ul class="contacts__list contacts__list--light">
+          <li><b>Режим</b><span>ежедневно 8:00–22:00, без выходных</span></li>
+          <li><b>Приезд</b><span>в течение 60 минут по городу</span></li>
+          <li><b>Телефон</b><span>+7 (900) 000-00-00</span></li>
+        </ul>
+      </div>
+      <form class="form reveal" id="bookForm" novalidate>
+        <div class="form__row">
+          <label>Имя<input type="text" name="name" placeholder="Как к вам обращаться" required></label>
+          <label>Телефон<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+        </div>
+        <div class="form__row">
+          <label>Что нужно<select name="type"><option>Электрика</option><option>Сантехника</option><option>Сборка мебели</option><option>Двери и замки</option><option>«Муж на час»</option><option>Другое</option></select></label>
+          <label>Когда<input type="date" name="date"></label>
+        </div>
+        <label>Опишите задачу<textarea name="note" rows="2" placeholder="Например: заменить смеситель и повесить зеркало"></textarea></label>
+        <button type="submit" class="btn btn--dark btn--wide">Вызвать мастера</button>
+        <p class="form__ok" id="formOk">Заявка принята! Перезвоним в течение 10 минут 🔧</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a href="#top" class="logo">Дом<span>&amp;</span>порядок</a>
+      <p class="footer__note">Домашний мастер · ежедневно 8:00–22:00 · приезд за 60 минут</p>
+      <p class="footer__copy">© 2026 «Дом и порядок». Демо-сайт для портфолио.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
