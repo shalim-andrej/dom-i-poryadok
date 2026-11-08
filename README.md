@@ -1,5 +1,12 @@
 # Дом и порядок — сайт домашнего мастера
 
+## Демо
+
+**[Открыть сайт →](https://shalim-andrej.github.io/dom-i-poryadok/)**
+
+![Главный экран — десктоп](screenshots/desktop.png)
+![Мобильная версия](screenshots/mobile.png)
+
 Одностраничный сайт сервиса бытовых услуг: электрика, сантехника, мебель. Продающая логика проста — срочная проблема, кейсы «до и после», прозрачные цены и кнопка «Вызвать мастера».
 
 **Демо:** [shalim-andrej.github.io/dom-i-poryadok](https://shalim-andrej.github.io/dom-i-poryadok/)
